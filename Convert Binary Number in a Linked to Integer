@@ -1,0 +1,8 @@
+class Solution(object):
+    def getDecimalValue(self, head):
+        fast = head
+        num =0
+        while fast is not None:
+            num =(num*2)+fast.val
+            fast = fast.next
+        return num
