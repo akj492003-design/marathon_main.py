@@ -1,0 +1,10 @@
+        n = {}
+
+        for num in nums:
+            if num not in n:
+                 n[num] = 1
+            else:
+
+                return True
+        
+        return False
